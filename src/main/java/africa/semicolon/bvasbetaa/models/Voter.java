@@ -1,18 +1,17 @@
 package africa.semicolon.bvasbetaa.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
 @Data
 @AllArgsConstructor
-@RequiredArgsConstructor
+@NoArgsConstructor
+@Builder
 public class Voter {
 
     private Gender gender;
     private String id;
     private UserInformation userInformation;
-    private String voterIndentificationNumber;
+    private String voterIdentificationNumber;
     private String name;
     private  Address address;
     private Integer age;

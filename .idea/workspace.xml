@@ -5,26 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cbd7bb1-250e-4fdd-81c4-d5ae1f6f46d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Party.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/UserInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Voter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/AdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/BvasVoterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/PartyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/UserInformationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/VoterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/dtos/request/VoterRegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/dtos/response/VoterRegistrationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Election.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/BvasAddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/BvasAdminRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/BvasElectionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/BvasPartyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/BvasUserInformationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/ElectionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/service/BvasBetaVoterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/service/VoterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/utils/AppUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/bvasbetaa/repositories/BvasAddressRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/bvasbetaa/repositories/BvasAdminRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/bvasbetaa/repositories/BvasElectionRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/bvasbetaa/repositories/BvasPartyRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/bvasbetaa/repositories/BvasVoterRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/bvasbetaa/service/BvasBetaVoterServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Party.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Voter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/models/Voter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/BvasVoterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/bvasbetaa/repositories/BvasVoterRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -67,6 +73,8 @@
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -78,26 +86,104 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="africa.semicolon.bvasbetaa.dtos.response" />
+      <recent name="africa.semicolon.bvasbetaa.dtos.request" />
       <recent name="africa.semicolon.bvasbetaa.models" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="africa.semicolon.bvasbetaa.service" />
+      <recent name="africa.semicolon.bvasbetaa.repositories" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="UserInformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.bvasbetaa.models.UserInformation" />
+  <component name="RunManager" selected="JUnit.BvasAdminRepositoryTest.testSaveAdmin">
+    <configuration name="BvasAddressRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="notBvas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="africa.semicolon.bvasbetaa.models.*" />
+          <option name="PATTERN" value="africa.semicolon.bvasbetaa.repositories.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.bvasbetaa.repositories" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.bvasbetaa.repositories.BvasAddressRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BvasAddressRepositoryTest.testSaveAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notBvas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.bvasbetaa.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.bvasbetaa.repositories" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.bvasbetaa.repositories.BvasAddressRepositoryTest" />
+      <option name="METHOD_NAME" value="testSaveAddress" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BvasAdminRepositoryTest.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notBvas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.bvasbetaa.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.bvasbetaa.repositories" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.bvasbetaa.repositories.BvasAdminRepositoryTest" />
+      <option name="METHOD_NAME" value="testFindById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BvasAdminRepositoryTest.testSaveAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notBvas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.bvasbetaa.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.bvasbetaa.repositories" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.bvasbetaa.repositories.BvasAdminRepositoryTest" />
+      <option name="METHOD_NAME" value="testSaveAdmin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BvasPartyRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notBvas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.bvasbetaa.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.bvasbetaa.repositories" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.bvasbetaa.repositories.BvasPartyRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserInformation" />
+        <item itemvalue="JUnit.BvasAdminRepositoryTest.testSaveAdmin" />
+        <item itemvalue="JUnit.BvasAddressRepositoryTest" />
+        <item itemvalue="JUnit.BvasAdminRepositoryTest.testFindById" />
+        <item itemvalue="JUnit.BvasPartyRepositoryTest" />
+        <item itemvalue="JUnit.BvasAddressRepositoryTest.testSaveAddress" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +196,9 @@
       <option name="presentableId" value="Default" />
       <updated>1683225724385</updated>
       <workItem from="1683225727073" duration="7447000" />
-      <workItem from="1683635323701" duration="506000" />
+      <workItem from="1683635323701" duration="26373000" />
+      <workItem from="1683663032627" duration="8683000" />
+      <workItem from="1683673677825" duration="719000" />
     </task>
     <servers />
   </component>

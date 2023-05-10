@@ -1,6 +1,7 @@
 package africa.semicolon.bvasbetaa.repositories;
 
 import africa.semicolon.bvasbetaa.models.Voter;
+import africa.semicolon.bvasbetaa.utils.AppUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,14 +26,18 @@ public class BvasVoterRepository implements VoterRepository{
 
     @Override
     public Voter save(Voter voter) {
+        String id = AppUtils.generateId();
+        voter.setId(id);
         voterList.add(voter);
         return voter;
     }
 
     @Override
     public void deleteById(String id) {
-        Voter voter = findById(id);
-        voterList.remove(voter);
+        Voter foundVoter = findById(id);
+        if(foundVoter != null) voterList.remove(foundVoter);
 
     }
+
+
 }
